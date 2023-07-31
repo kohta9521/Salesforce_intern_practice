@@ -1,0 +1,19 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0052t000001K62qAAC",
+      "createdByName": "古鳥 晴菜",
+      "createdDate": "2023-07-19T03:05:24.000Z",
+      "fileName": "staticresources/genofcfree__ofczip.resource",
+      "fullName": "genofcfree__ofczip",
+      "id": "0810T000000CwxyQAC",
+      "lastModifiedById": "0052t000001K62qAAC",
+      "lastModifiedByName": "古鳥 晴菜",
+      "lastModifiedDate": "2023-07-19T03:05:24.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "genofcfree",
+      "type": "StaticResource"
+    }
+  ]
+}

@@ -1,10 +1,8 @@
 import { LightningElement } from "lwc";
 
-import MyCustomButton from "./myCustomButton.css";
-
-export default class Test extends LightningElement {
+export default class CustomButton extends LightningElement {
+  // ボタンがクリックされたときに実行されるロジック
   handleClick() {
-    // ボタンがクリックされたときに実行されるロジック
     alert("ボタンがクリックされました！");
   }
 }
