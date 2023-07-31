@@ -1,3 +1,15 @@
+<!-- test.html -->
+
 <template>
-    { testText }
+  <!-- ボタンをマークアップ -->
+  <div class="custom-button-container">
+    <lightning-button
+      label="Click Me"
+      class="custom-button"
+      onclick={handleClick}>
+    </lightning-button>
+  </div>
 </template>
+
+<!-- CSSファイルのインポート -->
+import MyCustomButton from './myCustomButton.css';

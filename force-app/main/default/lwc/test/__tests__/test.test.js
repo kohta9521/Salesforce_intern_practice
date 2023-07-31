@@ -1,4 +1,4 @@
-import { createElement } from 'lwc';
+// import { createElement } from 'lwc';
 import Test from 'c/test';
 
 describe('c-test', () => {
