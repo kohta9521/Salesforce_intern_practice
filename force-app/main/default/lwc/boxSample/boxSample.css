@@ -29,3 +29,17 @@ h1[class="title"] {
   line-height: 40px;
   font-weight: bold;
 }
+lightning-card[class="inputArea"] {
+  color: red;
+}
+lightning-card[class="inputArea"]:focus {
+  background-color: red;
+}
+lightning-card[class="inputArea"]:hover {
+  background-color: red;
+}
+lightning-record-form[color="inputFormA"] {
+  color: red;
+  display: flex;
+  font-size: 10px;
+}

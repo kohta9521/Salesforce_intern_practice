@@ -6,14 +6,16 @@
                 ffff Title
             </h1>
         </div>
-        <lightning-card title={title} icon-name={iconName}>
+        <lightning-card class="inputArea" title={title} icon-name={iconName}>
             <lightning-record-form
+                class="inputFormA"
                 record-id={recordId}
                 object-api-name={objectName}
                 fields={fields}
                 mode={mode}
             ></lightning-record-form>
             <lightning-record-form
+                class="inputFormB"
                 record-id={recordId}
                 object-api-name={objectName}
                 fields={fields}
