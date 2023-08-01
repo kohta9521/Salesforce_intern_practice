@@ -1,15 +1,10 @@
 <template>
     <div class="box">
         <div class="boxTitleBox">
-            <div class="boxBox"></div>
-            <h1 class="title">
-                ffff Title
-            </h1>
+                <lightning-icon class="boxIcon" icon-name="action:user" alternative-text="manage_perm_sets" title="manage_perm_sets"></lightning-icon>
+                <h1 class="title">User Profile</h1>
         </div>
-            <div class="iconArea" icon-name={iconName}>
-                <lightning-icon icon-name="action:manage_perm_sets" alternative-text="manage_perm_sets" title="manage_perm_sets"></lightning-icon>
-                <p>title</p>
-            </div>
+        <div class="flexInput">
             <lightning-record-form
                 class="inputFormA"
                 record-id={recordId}
@@ -17,6 +12,7 @@
                 fields={fields}
                 mode={mode}
             ></lightning-record-form>
+        </div>
             <lightning-record-form
                 class="inputFormB"
                 record-id={recordId}
