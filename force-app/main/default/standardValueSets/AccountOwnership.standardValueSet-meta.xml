@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>ninkahoikuen</fullName>
+        <default>true</default>
+        <label>認可保育園</label>
+    </standardValue>
+    <standardValue>
+        <fullName>kigyoshudohoikuen</fullName>
+        <default>false</default>
+        <label>企業主導型保育園</label>
+    </standardValue>
+    <standardValue>
+        <fullName>shokiboninkahoikuen</fullName>
+        <default>false</default>
+        <label>小規模認可保育園</label>
+    </standardValue>
+    <standardValue>
+        <fullName>jidohattatsusien</fullName>
+        <default>false</default>
+        <label>児童発達支援</label>
+    </standardValue>
+</StandardValueSet>
