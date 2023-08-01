@@ -4,14 +4,5 @@
   <apiVersion>57.0</apiVersion>
   <targets>
     <target>lightning__RecordPage</target>
-  </targets>
-      <targetConfigs>
-        <targetConfig targets="lightning__RecordPage">
-            <property type="String" name="objectName" label="オブジェクト名" required="true" default="" ></property>
-            <property type="String" name="fields" label="項目名(複数の場合は,区切り)" required="true" default="" ></property>
-            <property type="String" name="title" label="タイトル" ></property>
-            <property type="String" name="iconName" label="アイコン名" default="standard:user_role" ></property>
-            <property label="表示モード(view/edit/readonly)" name="mode" type="String" datasource="view,edit,readonly" default="view"/>
-        </targetConfig>
-        </targetConfigs>
+</targets>
 </LightningComponentBundle>
