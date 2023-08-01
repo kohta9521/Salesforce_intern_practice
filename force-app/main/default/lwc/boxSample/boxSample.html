@@ -6,5 +6,19 @@
                 ffff Title
             </h1>
         </div>
+        <lightning-card title={title} icon-name={iconName}>
+            <lightning-record-form
+                record-id={recordId}
+                object-api-name={objectName}
+                fields={fields}
+                mode={mode}
+            ></lightning-record-form>
+            <lightning-record-form
+                record-id={recordId}
+                object-api-name={objectName}
+                fields={fields}
+                mode={mode}
+            ></lightning-record-form>
+        </lightning-card>
     </div>
 </template>
