@@ -2,14 +2,6 @@ import { LightningElement, api, track } from "lwc";
 import { guid } from "c/utilsPrivate";
 
 export default class cVerticalNavigationSection extends LightningElement {
-  // ------
-  @api recordId;
-  @api objectName;
-  @api fields;
-  @api title;
-  @api iconName;
-  @api mode;
-  // ------
 
   headingId = guid();
 
