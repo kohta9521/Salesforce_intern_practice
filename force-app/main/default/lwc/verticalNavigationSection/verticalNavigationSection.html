@@ -1,0 +1,22 @@
+<!--
+  Copyright (c) 2019, salesforce.com, inc.
+  All rights reserved.
+  SPDX-License-Identifier: MIT
+  For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/MIT
+ -->
+
+<template>
+        <div role="list" aria-describedby="vertical-navigation-section-heading">
+            <h1 role="text">sample code</h1>
+            <lightning-record-form
+                role="form"
+                record-id={recordId}
+                    object-api-name={objectName}
+                    fields={fields}
+                    mode={mode}
+                    columns="2"
+                    layout-type="Full"
+            >
+            </lightning-record-form>
+        </div>
+</template>
