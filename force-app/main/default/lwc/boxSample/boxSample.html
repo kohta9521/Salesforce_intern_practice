@@ -6,19 +6,23 @@
                 ffff Title
             </h1>
         </div>
-        <lightning-card title={title} icon-name={iconName}>
+            <div class="iconArea" icon-name={iconName}>
+                <lightning-icon icon-name="action:manage_perm_sets" alternative-text="manage_perm_sets" title="manage_perm_sets"></lightning-icon>
+                <p>title</p>
+            </div>
             <lightning-record-form
+                class="inputFormA"
                 record-id={recordId}
                 object-api-name={objectName}
                 fields={fields}
                 mode={mode}
             ></lightning-record-form>
             <lightning-record-form
+                class="inputFormB"
                 record-id={recordId}
                 object-api-name={objectName}
                 fields={fields}
                 mode={mode}
             ></lightning-record-form>
-        </lightning-card>
     </div>
 </template>
